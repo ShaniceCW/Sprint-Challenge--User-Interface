@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would say that semantic HTML elements are elements  with meaning. It provides meaning to a developer and the web browser. The article tag is a good example of a semantic element because developers will know that an article will be created when it is placed into the code and displayed on a web page. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block starts on a new line and takes up a new width and display inline can set a width and height on an element. 
 
 3. What are the 4 areas of the box model?
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+ Margin, Border, Padding, Content. 
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?  
+
+It works on the cross axis. 
 
 5. Explain why git is valuable to a team of developers.
+
+ Git is valuable to a team of developers because it allows them to make changes to their projects and track it over time. They can save their original draft files and continue to improve it until they create the final version. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

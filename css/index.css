@@ -66,6 +66,29 @@ p {
     line-height: 1.4;
 }
 
+
+header {
+    width: 720px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo {
+    width: 800px;
+    margin: 20px auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -95,7 +118,6 @@ p {
     margin-bottom: 0;
 }
 
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -105,12 +127,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background:black;
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -125,6 +187,45 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-top {
+    padding: 0 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-box {
+    width: 45%;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-box img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.about-box button {
+    width: 7.5rem;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: .5rem;
+    margin: 1rem 0;
+}
+
+.about-box button:hover {
+    background-color: black;
+    color: white;
+}
+
+.about-footer {
+    padding: 30px 20px;
 }
 
 footer {
@@ -144,9 +245,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-
-.logo1{display:flex;
-      
-
 }
